@@ -1,12 +1,12 @@
 from LexAnalyze import LexAnalyze
 
-source_code = """int calculate() {\n
- int count = 0, value = 10;\n
- for (; value > count;) {\n
- count += 2; /* Increment count by 2 */\n
- }\n
- return count;\n
-}\n"""
+source_code = """int calculate() {
+ int count = 0, value = 10;
+ for (; value > count;) {
+ count += 2; /* Increment count by 2 */
+ }
+ return count;
+}"""
 
 lexer = LexAnalyze()
 lexer.lex(source_code)

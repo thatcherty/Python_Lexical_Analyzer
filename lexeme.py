@@ -20,7 +20,6 @@ class TokenType(Enum):
     MINUSEQUAL  = auto()
     NOTEQUAL    = auto()
 
-    EOF         = auto()
     UNKNOWN     = auto()
 
 
